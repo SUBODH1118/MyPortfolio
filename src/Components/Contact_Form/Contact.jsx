@@ -2,6 +2,9 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
+  function sucessful(){
+    alert('Sucessful')
+  }
   return (
     <div id="contact" className="container">
         <div className="header">
@@ -21,6 +24,10 @@ const Contact = () => {
           placeholder="Enter your message"
         ></textarea>
         <button className="contact-submit">Submit</button>
+        <script>
+          
+        </script>
+        
       </form>
     </div>
   );

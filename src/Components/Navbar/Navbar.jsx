@@ -33,13 +33,13 @@ function Navbar() {
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchol-link" offset={50} href="#">
-            <p onClick={() => setMenu("")}>Projects</p>
+          <AnchorLink className="anchol-link" offset={50} href="#projects">
+            <p onClick={() => setMenu("projects")}>Projects</p>
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchol-link" offset={50} href="#form">
-            <p onClick={() => setMenu("form")}>Portfolio</p>
+          <AnchorLink className="anchol-link" offset={50} href="#hobbie">
+            <p onClick={() => setMenu("hobbie")}>Hobies</p>
           </AnchorLink>
         </li>
         <li>

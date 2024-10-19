@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id="about" className="about">
       <div className="about-title">
-        <h1>About me</h1>
+        <h1>ABOUT ME</h1>
       </div>
       <div className="about-section">
         <div className="about-me">
@@ -15,14 +15,16 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              A Skilled and motivated React Js & React Native Developer
-              proficient with JavaScript, React, Typescript and SQL. Committed
-              to delivering high-quality result and working collaboratively in a
-              friendly and dynamic environment.
+              A Skilled IT professional with a strong background in software
+              development, particularly in web and mobile technologies.
+              Passionate about learning new technologies and frameworks, with
+              hands-on experience in React.js, React Native.
             </p>
             <p>
               {" "}
-              Looking forward to adding value through my passion and expertise.
+              Committed to delivering high-quality result and working
+              collaboratively in a friendly and dynamic environment. Looking
+              forward to adding value through my passion and expertise.
             </p>
           </div>
 
@@ -42,6 +44,10 @@ const About = () => {
             <div className="about-skill">
               <p>React Native</p>
               <hr style={{ width: "40%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Power BI</p>
+              <hr style={{ width: "80%" }} />
             </div>
           </div>
         </div>

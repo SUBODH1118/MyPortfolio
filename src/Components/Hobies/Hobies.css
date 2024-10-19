@@ -1,0 +1,72 @@
+.hobies{
+    margin: 10px 60px;
+}
+.hb-head{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hb-head h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.Hobies {
+    display: flex;
+    margin: 1%;
+    margin-top: 100px;
+    flex-direction: row;
+  }
+  .Hobies-A {
+    border-radius: 10%;
+    padding-top: 3%;
+    height: 400px;
+    width: 400px;
+    background-color: hsl(180, 4%, 63%);
+  }
+  .Hobies-B {
+    border-radius: 10%;
+    padding-top: 3%;
+    margin-left: 3%;
+    height: 400px;
+    width: 400px;
+    background-color: hsl(180, 4%, 63%);
+  }
+  .Hobies-C {
+    border-radius: 10%;
+    padding-top: 3%;
+    margin-left: 3%;
+    height: 400px;
+    width: 400px;
+    background-color: hsl(180, 4%, 63%);
+  }
+  .ven {
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 200px;
+    width : 340px;
+  }
+  .topic {
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 200px;
+    width : 340px;
+  }
+  .hb {
+    color: black;
+    font-size: 22px; 
+    font-weight:600;
+    text-align: center; 
+  }
+  .ttext {
+    /* color: black; */
+    margin-top: 5%;
+    font-size: 17px;
+    font-style: oblique;
+    text-align: center;
+    color: brown;
+    
+  }
+  
